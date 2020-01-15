@@ -6,7 +6,11 @@
 //  Copyright © 2020 Jason Kim. All rights reserved.
 //
 
-struct Task {
+import Foundation
+
+struct Task: Identifiable {
+    let id = UUID()
+    
     var name: String
     var completed = false
 }

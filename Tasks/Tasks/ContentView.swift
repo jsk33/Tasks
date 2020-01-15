@@ -9,17 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    var taskStore = TaskStore()
+    var taskStore: TaskStore
     
     var body: some View {
-        List(taskStore.tasks.indices) { index in
-            Text(self.taskStore.tasks[index].name)
+//        List(taskStore.tasks.indices) { index in
+//            Text(self.taskStore.tasks[index].name)
+//        }
+        List(taskStore.tasks) { task in
+            Text(task.name)
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(taskStore: TaskStore())
     }
 }
