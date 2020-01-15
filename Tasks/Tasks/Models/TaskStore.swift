@@ -7,9 +7,9 @@
 //
 
 class TaskStore {
-    var tasks: [Task] = [Task(name: "do this"), Task(name: "do that")]
+    var tasks: [Task] = [Task(name: "do this"), Task(name: "do that"), Task(name: "do it")]
     
-//    init(tasks: [Task]) {
-//        self.tasks = tasks
-//    }
+    init() {
+        
+    }
 }
