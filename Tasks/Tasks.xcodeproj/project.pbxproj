@@ -20,6 +20,10 @@
 		E019F91C23D00784009555AD /* TaskEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E019F91B23D00784009555AD /* TaskEditingView.swift */; };
 		E019F92223D0096E009555AD /* ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = E019F92023D0096E009555AD /* ForEach.swift */; };
 		E019F92323D0096E009555AD /* IndexedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E019F92123D0096E009555AD /* IndexedCollection.swift */; };
+		E019F92523D1F842009555AD /* Task.Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E019F92423D1F842009555AD /* Task.Priority.swift */; };
+		E019F92723D1F897009555AD /* TaskStore.PrioritizedTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E019F92623D1F897009555AD /* TaskStore.PrioritizedTasks.swift */; };
+		E019F92923D1FC3C009555AD /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E019F92823D1FC3C009555AD /* SectionView.swift */; };
+		E019F92B23D20152009555AD /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E019F92A23D20152009555AD /* Binding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		E019F91B23D00784009555AD /* TaskEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditingView.swift; sourceTree = "<group>"; };
 		E019F92023D0096E009555AD /* ForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForEach.swift; path = "../../../../../SwiftCourse/P03E04 Binding/Begin/TaskList/extension/ForEach.swift"; sourceTree = "<group>"; };
 		E019F92123D0096E009555AD /* IndexedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndexedCollection.swift; path = "../../../../../SwiftCourse/P03E04 Binding/Begin/TaskList/extension/IndexedCollection.swift"; sourceTree = "<group>"; };
+		E019F92423D1F842009555AD /* Task.Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.Priority.swift; sourceTree = "<group>"; };
+		E019F92623D1F897009555AD /* TaskStore.PrioritizedTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.PrioritizedTasks.swift; sourceTree = "<group>"; };
+		E019F92823D1FC3C009555AD /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		E019F92A23D20152009555AD /* Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Binding.swift; path = "../../../../../SwiftCourse/P04E07 Picker Views/Begin/TaskList/extension/Binding.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				E019F90F23CE95F0009555AD /* Task.swift */,
+				E019F92423D1F842009555AD /* Task.Priority.swift */,
 				E019F91223CE9658009555AD /* TaskStore.swift */,
+				E019F92623D1F897009555AD /* TaskStore.PrioritizedTasks.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -104,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				E019F8FF23CE957F009555AD /* ContentView.swift */,
+				E019F92823D1FC3C009555AD /* SectionView.swift */,
 				E019F91623CEA1CC009555AD /* NewTaskView.swift */,
 				E019F91923CFF677009555AD /* RowView.swift */,
 				E019F91B23D00784009555AD /* TaskEditingView.swift */,
@@ -114,6 +125,7 @@
 		E019F91F23D00957009555AD /* extension */ = {
 			isa = PBXGroup;
 			children = (
+				E019F92A23D20152009555AD /* Binding.swift */,
 				E019F92023D0096E009555AD /* ForEach.swift */,
 				E019F92123D0096E009555AD /* IndexedCollection.swift */,
 			);
@@ -194,10 +206,14 @@
 				E019F91323CE9658009555AD /* TaskStore.swift in Sources */,
 				E019F92323D0096E009555AD /* IndexedCollection.swift in Sources */,
 				E019F91023CE95F0009555AD /* Task.swift in Sources */,
+				E019F92B23D20152009555AD /* Binding.swift in Sources */,
 				E019F91C23D00784009555AD /* TaskEditingView.swift in Sources */,
 				E019F92223D0096E009555AD /* ForEach.swift in Sources */,
 				E019F91A23CFF677009555AD /* RowView.swift in Sources */,
+				E019F92523D1F842009555AD /* Task.Priority.swift in Sources */,
 				E019F91723CEA1CC009555AD /* NewTaskView.swift in Sources */,
+				E019F92923D1FC3C009555AD /* SectionView.swift in Sources */,
+				E019F92723D1F897009555AD /* TaskStore.PrioritizedTasks.swift in Sources */,
 				E019F8FC23CE957F009555AD /* AppDelegate.swift in Sources */,
 				E019F8FE23CE957F009555AD /* SceneDelegate.swift in Sources */,
 				E019F90023CE957F009555AD /* ContentView.swift in Sources */,
